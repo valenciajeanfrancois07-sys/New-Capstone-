@@ -2,7 +2,7 @@ import EmployeeCard from "./EmployeeCard";
 
 function EmployeeList({ employees }) {
   if (!employees || employees.length === 0) {
-    return <p>Aucun employé pour le moment.</p>;
+    return <p>Aucun employé pour le moment</p>;
   }
 
   return (
